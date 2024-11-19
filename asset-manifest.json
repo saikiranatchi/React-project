@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/React-project/static/css/main.f6d1d5e4.css",
+    "main.css": "/React-project/static/css/main.4198a3ae.css",
     "main.js": "/React-project/static/js/main.2285e96f.js",
     "static/media/Agra-Tajmahal.jpg": "/React-project/static/media/Agra-Tajmahal.9fc9887a1cf1474def0d.jpg",
     "static/media/Vizag.jpg": "/React-project/static/media/Vizag.e86eb10ccaeafbde5fc3.jpg",
@@ -20,11 +20,11 @@
     "static/media/login-bg.jpg": "/React-project/static/media/login-bg.15e5d84879807d3d9463.jpg",
     "static/media/ptbanner.jpg": "/React-project/static/media/ptbanner.cbe39d71a39c8caaddea.jpg",
     "index.html": "/React-project/index.html",
-    "main.f6d1d5e4.css.map": "/React-project/static/css/main.f6d1d5e4.css.map",
+    "main.4198a3ae.css.map": "/React-project/static/css/main.4198a3ae.css.map",
     "main.2285e96f.js.map": "/React-project/static/js/main.2285e96f.js.map"
   },
   "entrypoints": [
-    "static/css/main.f6d1d5e4.css",
+    "static/css/main.4198a3ae.css",
     "static/js/main.2285e96f.js"
   ]
 }
