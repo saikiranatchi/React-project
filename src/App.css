@@ -1,0 +1,96 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* .navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  background-color: #333;
+  color: white;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+}
+
+.navbar .logo a {
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+}
+
+.navbar .nav-links a {
+  color: white;
+  text-decoration: none;
+} */
+
+/* .home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f4f4;
+}
+
+.hero-text {
+  text-align: center;
+}
+
+.hero-text h1 {
+  font-size: 3rem;
+}
+
+.hero-text .btn {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+} */
+
+/* .form-container {
+  width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.contact {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  padding: 2rem;
+}
+
+.contact-form {
+  width: 50%;
+}
+
+.contact-image {
+  width: 50%;
+}
+
+.city-list {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.city-card {
+  width: 200px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.city-card img {
+  width: 100%;
+  height: auto;
+}
+ */

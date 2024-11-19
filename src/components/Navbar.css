@@ -1,0 +1,78 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.3rem;
+  background-color: orange;
+  color: #fff;
+  font-weight: bold;
+}
+
+.nav-logo {
+  margin-left: 1rem;
+  font-size: 1.7rem;
+}
+
+.menu-toggle {
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 2rem;
+  cursor: pointer;
+  display: none; /* Hidden on larger screens */
+  z-index: 1;
+}
+
+.nav-links {
+  display: flex;
+  gap: 1.5rem;
+  list-style: none;
+  transition: transform 0.3s ease-in-out;
+}
+
+.nav-links li a:hover{
+  color: black;
+}
+
+.nav-links li a {
+  padding: 0.2rem;
+  color: #fff;
+  text-decoration: none;
+}
+.logout-button {
+  cursor: pointer;
+  color: #ff4d4d;
+}
+
+.nav-links.open {
+  display: block;
+  position: absolute;
+  top: 60px;
+  left: 0;
+  right: 0;
+  background-color: #333;
+  text-align: center;
+  padding: 1rem 0;
+  z-index: 1;
+}
+
+.nav-links li {
+  padding: 0.5rem 0;
+}
+
+@media (max-width: 768px) {
+  .menu-toggle {
+    display: block; /* Show toggle button on smaller screens */
+  }
+  
+  .nav-links {
+    display: none; /* Hide links initially */
+    flex-direction: column;
+    transform: translateY(-100%);
+  }
+  
+  .nav-links.open {
+    display: flex;
+    transform: translateY(0);
+  }
+}

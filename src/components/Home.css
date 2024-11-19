@@ -1,0 +1,25 @@
+.home-container {
+  background: url("./images/ptbanner.jpg") no-repeat center center/cover;
+  color: white;
+}
+.home-container .hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 78vh;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.17);
+    backdrop-filter: blur(2px);
+}
+.btn {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  .btn:hover{
+    background-color: red;
+    color: black;
+  }

@@ -1,0 +1,213 @@
+.login-container {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 78vh;
+  }
+  .login-container .circle1{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: blue;
+    left: 530px;
+    top: 130px;
+    position: absolute;
+    animation: circle1 10s ease infinite normal;
+  }
+  @keyframes circle1 {
+    0% {
+        left: 530px;
+        top: 130px;
+    }
+    25%{
+        left: 500px;
+        top: 120px;
+    }
+    50%{
+        left: 530px;
+        top: 130px;
+    }
+    75%{
+        left: 560px;
+        top: 120px;
+    }
+    100%{
+        left: 530px;
+        top: 130px;
+    }
+  }
+  .login-container .circle2{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: rgb(64, 255, 0);
+    right: 530px;
+    bottom: 130px;
+    position: absolute;
+    animation: circle2 10s ease infinite normal;
+  }
+
+  @keyframes circle2 {
+    0% {
+        right: 530px;
+        bottom: 130px;
+    }
+    25%{
+        right: 560px;
+        bottom: 120px;
+    }
+    50%{
+        right: 530px;
+        bottom: 130px;
+    }
+    75%{
+        right: 500px;
+        bottom: 120px;
+    }
+    100%{
+        right: 530px;
+        bottom: 130px;
+    }
+  }
+
+  .login-form {
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 5px 0.2px rgb(238, 236, 236);
+    backdrop-filter: blur(15px);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 30px;
+    z-index: 1;
+  }
+  .login-form h2{
+    text-align: center;
+    color: white;
+  }
+  .login-form input,button{
+    padding: 10px;
+    width: auto;
+    font-weight: bold;
+    font-size: medium;
+  }
+  .login-form button:hover{
+    background-color: red;
+    color: white;
+  }
+  @media (max-width: 768px) {
+    .login-container .circle1{
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+        background-color: blue;
+        left: 450px;
+        top: 120px;
+        position: absolute;
+        animation: circle1 10s ease infinite normal;
+      }
+      @keyframes circle1 {
+        0% {
+            transform: scale(1);
+        }
+        25%{
+            transform: scale(1.2);
+        }
+        50%{
+           transform: scale(1);
+        }
+        75%{
+            transform: scale(1.2);
+        }
+        100%{
+            transform: scale(1);
+        }
+      }
+      .login-container .circle2{
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+        background-color: rgb(64, 255, 0);
+        right: 450px;
+        bottom: 120px;
+        position: absolute;
+        animation: circle2 10s ease infinite normal;
+      }
+    
+      @keyframes circle2 {
+        0% {
+            transform: scale(1);
+        }
+        25%{
+            transform: scale(1.2);
+        }
+        50%{
+           transform: scale(1);
+        }
+        75%{
+            transform: scale(1.2);
+        }
+        100%{
+            transform: scale(1);
+        }
+      }
+  }
+
+  @media (max-width: 450px) {
+    .login-container .circle1{
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+        background-color: blue;
+        left: 300px;
+        top: 130px;
+        position: absolute;
+        animation: circle1 10s ease infinite normal;
+      }
+      @keyframes circle1 {
+        0% {
+            transform: scale(1);
+        }
+        25%{
+            transform: scale(1.2);
+        }
+        50%{
+           transform: scale(1);
+        }
+        75%{
+            transform: scale(1.2);
+        }
+        100%{
+            transform: scale(1);
+        }
+      }
+      .login-container .circle2{
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+        background-color: rgb(64, 255, 0);
+        right: 300px;
+        bottom: 110px;
+        position: absolute;
+        animation: circle2 10s ease infinite normal;
+      }
+    
+      @keyframes circle2 {
+        0% {
+            transform: scale(1);
+        }
+        25%{
+            transform: scale(1.2);
+        }
+        50%{
+           transform: scale(1);
+        }
+        75%{
+            transform: scale(1.2);
+        }
+        100%{
+            transform: scale(1);
+        }
+      }
+  }
