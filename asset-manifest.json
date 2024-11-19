@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/React-project/static/css/main.f6d1d5e4.css",
+    "main.js": "/React-project/static/js/main.e34ea2ef.js",
+    "static/media/Agra-Tajmahal.jpg": "/React-project/static/media/Agra-Tajmahal.9fc9887a1cf1474def0d.jpg",
+    "static/media/Vizag.jpg": "/React-project/static/media/Vizag.e86eb10ccaeafbde5fc3.jpg",
+    "static/media/Udaipur.jpg": "/React-project/static/media/Udaipur.aff0396ce40a3f29cebc.jpg",
+    "static/media/Jaipur-AmerFort.png": "/React-project/static/media/Jaipur-AmerFort.05b6da06756fde767e52.png",
+    "static/media/Mysore.jpg": "/React-project/static/media/Mysore.abc33382c61a4a270262.jpg",
+    "static/media/Kolkata-Howrah.jpg": "/React-project/static/media/Kolkata-Howrah.470fec353cb95a20339a.jpg",
+    "static/media/Chennai-Marina.jpg": "/React-project/static/media/Chennai-Marina.d29a3469b3a1d22f0609.jpg",
+    "static/media/Mumbai.jpg": "/React-project/static/media/Mumbai.1c3725e9b4695fb54761.jpg",
+    "static/media/Ahmedabad-Atalbridge.jpg": "/React-project/static/media/Ahmedabad-Atalbridge.055ff638fb2facc998fa.jpg",
+    "static/media/Goa.jpg": "/React-project/static/media/Goa.e181b641c592b2150f9c.jpg",
+    "static/media/Varanasi-Ghat.jpg": "/React-project/static/media/Varanasi-Ghat.75e2e542fe95942791e1.jpg",
+    "static/media/Pune.jpg": "/React-project/static/media/Pune.b578b6f081b0879742c5.jpg",
+    "static/media/Hyderabad-charminar.jpg": "/React-project/static/media/Hyderabad-charminar.7478bfbb9ce64128c1a0.jpg",
+    "static/media/Bangalore.webp": "/React-project/static/media/Bangalore.43f4b2396a710c90bc6b.webp",
+    "static/media/Delhi-Redfort.jpg": "/React-project/static/media/Delhi-Redfort.376d44276d6536d53f3f.jpg",
+    "static/media/login-bg.jpg": "/React-project/static/media/login-bg.15e5d84879807d3d9463.jpg",
+    "static/media/ptbanner.jpg": "/React-project/static/media/ptbanner.cbe39d71a39c8caaddea.jpg",
+    "index.html": "/React-project/index.html",
+    "main.f6d1d5e4.css.map": "/React-project/static/css/main.f6d1d5e4.css.map",
+    "main.e34ea2ef.js.map": "/React-project/static/js/main.e34ea2ef.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f6d1d5e4.css",
+    "static/js/main.e34ea2ef.js"
+  ]
+}
